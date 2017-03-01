@@ -1,23 +1,75 @@
-.col-xs-3, .col-xs-6 {
+.light-green {
   background-color: #9d9;
   border: 1px solid #000;
   height: 200px;
 }
 
-.col-lg-1 {
+.green {
   background-color: #6f9038;
   border: 1px solid #000;
   height: 200px;
 }
 
-.col-lg-9, .col-xs-2 {
+.blue1 {
   background-color: #2d90e3;
   border: 1px solid #000;
   height: 200px;
 }
 
-.col-xs-1 {
+.black {
   background-color: #000;
   border: 1px solid #000;
   height: 100px;
+}
+
+.blue {
+  background-color: blue;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+  height: 100px;
+}
+
+.happy-bunnies {
+  height: 150px;
+  background-color: yellow;
+  width: 40%;
+}
+
+/*========MEDIA QUERIES=========*/
+
+@media screen and (min-width:375px) {
+  .happy-bunnies {
+    background-color: #987504;
+    width: 90%;
+  }
+}
+
+
+.betty-poop {
+  height: 150px;
+  background-color: #79d;
+  width: 30%;
+}
+
+@media screen and (min-width: 768px) {
+  .betty-poop {
+    background-color: #de9;
+    width: 100%;
+  }
+}
+
+.farty-pants {
+  height: 150px;
+  background-color: #789;
+  width: 10%
+}
+
+@media screen and (min-width: 375px){
+  .farty-pants {
+    background-color: #d26;
+    width: 56%;
+  }
 }
