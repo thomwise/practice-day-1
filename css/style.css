@@ -1,0 +1,23 @@
+.col-xs-3, .col-xs-6 {
+  background-color: #9d9;
+  border: 1px solid #000;
+  height: 200px;
+}
+
+.col-lg-1 {
+  background-color: #6f9038;
+  border: 1px solid #000;
+  height: 200px;
+}
+
+.col-lg-9, .col-xs-2 {
+  background-color: #2d90e3;
+  border: 1px solid #000;
+  height: 200px;
+}
+
+.col-xs-1 {
+  background-color: #000;
+  border: 1px solid #000;
+  height: 100px;
+}
